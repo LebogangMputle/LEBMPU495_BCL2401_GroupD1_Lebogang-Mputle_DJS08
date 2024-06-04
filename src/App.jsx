@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 import Home from "./Pages/Home"
 import About from "./Pages/About"
 import Vans from "./Pages/Vans"
-//import "./server"
+
+import "./server"
 
 
 
