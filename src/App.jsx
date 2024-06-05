@@ -10,7 +10,7 @@ import Reviews from './Pages/Host/Reviews';
 import Layout from "./components/Layout";
 import HostLayout from "./components/HostLayout";
 import HostVans from "./Pages/Host/HostVans";
-import HostVanDetail from "./Pages/Host/HostVandetail";
+import HostVanDetail from "./Pages/Host/HostVanDetail";
 import "./server"
 
 
