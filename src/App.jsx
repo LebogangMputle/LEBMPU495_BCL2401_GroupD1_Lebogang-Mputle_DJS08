@@ -10,6 +10,7 @@ import Reviews from './Pages/Host/Reviews';
 import Layout from "./components/Layout";
 import HostLayout from "./components/HostLayout";
 import HostVans from "./Pages/Host/HostVans";
+import HostVanDetail from "./Pages/Host/HostVandetail";
 import "./server"
 
 
@@ -30,6 +31,7 @@ export default function App() {
               <Route path="income" element={<Income />}/>
               <Route path="reviews" element={<Reviews />}/>
               <Route path="vans" element={<HostVans/>}/>
+              <Route path="vans/:id" element={<HostVanDetail/>}/>
             </Route>
           </Route>  
         </Routes>
