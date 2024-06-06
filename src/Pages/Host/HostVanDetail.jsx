@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 
 export default function HostVanDetail() {
     const { id } = useParams ()
@@ -16,11 +16,28 @@ export default function HostVanDetail() {
     }
 
     return (
-        <div>
-            <img src={currentVan.imageUrl} width={150}/>
-            <h2>{currentVan.name}</h2>
-            <p>{currentVan.price}</p>
-            <p>{currentVan.type}</p>
+    <section>
+        <Link 
+            to="." 
+            className="back-button"
+            >
+                &larr; <span>back to all vans</span></Link>
+    
+        <div className="host-van-detail-layout-container">
+          <div className="host-van-detail">
+            <img src={currentVan.imageUrl}/>
+            <div className="host-van-detail-info-text">
+                <i
+                    className={`van-type van-type-${currentVan.type}`}
+                >
+                    {currentVan.type}
+                </i>
+                <h2>{currentVan.name}</h2>
+                <p>{currentVan.price}</p>
+           </div> 
+          </div>
         </div>
+    </section>
+        
     )
 }
