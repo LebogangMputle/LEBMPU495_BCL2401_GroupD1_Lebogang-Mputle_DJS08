@@ -38,8 +38,9 @@ export default function App() {
                 <Route index element={<HostVanInfo/>}/>
                 <Route path="pricing" element={<HostVanPricing/>}/>
                 <Route path="Photos" element={<HostVanPhotos />}/>
-              </Route>
+              </Route>            
             </Route>
+            <Route path="*" element={<h1>Page not found!</h1>}/>
           </Route>  
         </Routes>
       </BrowserRouter>
