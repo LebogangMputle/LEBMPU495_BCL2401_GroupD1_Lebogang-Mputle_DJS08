@@ -16,6 +16,11 @@ export default function VanDetail () {
 
     const search = location.state?.search || ""
 
+    {/*
+    *
+    const type = location.state?.type || "all"
+    */}
+
     return (
         <div className="van-detail-container">
         <Link 
