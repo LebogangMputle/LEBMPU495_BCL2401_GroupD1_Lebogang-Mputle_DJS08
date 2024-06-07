@@ -14,6 +14,7 @@ import HostVanDetail from "./Pages/Host/HostVanDetail";
 import HostVanInfo from "./Pages/Host/HostVanInfo";
 import HostVanPricing from "./Pages/Host/HostVanPricing";
 import HostVanPhotos from "./Pages/Host/HostVanPhotos";
+import NotFound from "./Pages/NotFound";
 import "./server"
 
 
@@ -40,7 +41,7 @@ export default function App() {
                 <Route path="Photos" element={<HostVanPhotos />}/>
               </Route>            
             </Route>
-            <Route path="*" element={<h1>Page not found!</h1>}/>
+            <Route path="*" element={<NotFound />}/>
           </Route>  
         </Routes>
       </BrowserRouter>
