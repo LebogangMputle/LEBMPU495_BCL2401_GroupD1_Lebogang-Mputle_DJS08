@@ -4,6 +4,7 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Vans from "./Pages/Vans";
 import VanDetail from "./Pages/VanDetail";
+import NotFound from "./Pages/NotFound";
 import Dashboard from './Pages/Host/Dashboard';
 import Income from './Pages/Host/Income';
 import Reviews from './Pages/Host/Reviews';
@@ -14,7 +15,6 @@ import HostVanDetail from "./Pages/Host/HostVanDetail";
 import HostVanInfo from "./Pages/Host/HostVanInfo";
 import HostVanPricing from "./Pages/Host/HostVanPricing";
 import HostVanPhotos from "./Pages/Host/HostVanPhotos";
-import NotFound from "./Pages/NotFound";
 import "./server"
 
 
