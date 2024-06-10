@@ -1,4 +1,5 @@
-import { BsStarFill } from "./assets/images/react-icons/bs"
+import React from "react"
+import { BsStarFill } from "react-icons/bs"
 
 export default function Reviews() {
     const reviewsData = [

@@ -1,3 +1,5 @@
+import React from "react"
+
 export default function Income() {
     const transactionsData = [
         { amount: 720, date: "Jan 3, '23", id: "1" },
